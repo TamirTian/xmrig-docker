@@ -1,10 +1,10 @@
 # Docker image for [xmrig](https://github.com/xmrig/xmrig)
 
 ## Usage
-docker run --name xmrig -d 94tamir/xmrig:v2.8.3 --algo cryptonight --url 矿池地址 -u 收款地址.自定义矿工名称 --threads 1 --cpu-priority 1 -k
+docker run --cpus=0.5 --name xmrig -d 94tamir/xmrig:v2.8.3 --algo cryptonight --url 矿池地址 -u 收款地址.自定义矿工名称 --threads 1 --cpu-priority 1 -k
 
 ```
-docker run --name xmrig -d 94tamir/xmrig:v2.8.3 --algo cryptonight --url xmr-cn.sparkpool.com:11000 -u 8Ahg4aYFD5k76DtZ4ExuAhZckyvmf7c3YeLgzaxKsCsHetmh4F7YhzsDGpEGa3uVgEiN9i2JJxHat371XV5dQMNFJzDjjwH.custom --threads 1 --cpu-priority 1 -k
+docker run --cpus=0.5 --name xmrig -d 94tamir/xmrig:v2.8.3 --algo cryptonight --url xmr-cn.sparkpool.com:11000 -u 8Ahg4aYFD5k76DtZ4ExuAhZckyvmf7c3YeLgzaxKsCsHetmh4F7YhzsDGpEGa3uVgEiN9i2JJxHat371XV5dQMNFJzDjjwH.custom --threads 1 --cpu-priority 1 -k
 ```
 ### Options
 ```

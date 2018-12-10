@@ -1,5 +1,10 @@
 # Docker image for [xmrig](https://github.com/xmrig/xmrig)
 
+## Install docker
+```
+curl -sSL https://get.docker.com/ | sh
+```
+
 ## Usage
 docker run --cpus=0.5 --name xmrig -d 94tamir/xmrig:v2.8.3 --algo cryptonight --url 矿池地址 -u 收款地址.自定义矿工名称 --threads 1 --cpu-priority 1 -k
 
@@ -51,10 +56,6 @@ docker run --cpus=0.5 --name xmrig -d 94tamir/xmrig:v2.8.3 --algo cryptonight --
   -V, --version            output version information and exit
 ```
 
-### Install docker
-```
-curl -sSL https://get.docker.com/ | sh
-```
 ### Other
 #### [下载钱包和生成地址](https://getmonero.org/downloads/)
 

@@ -1,6 +1,6 @@
 # Docker image for [xmrig](https://github.com/xmrig/xmrig)
 
-## Install docker
+## Install docker(Option)
 ```
 curl -sSL https://get.docker.com/ | sh
 ```
